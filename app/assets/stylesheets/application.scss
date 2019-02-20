@@ -1,2 +1,51 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.navbar {
+  background-color: #5c8d89;
+}
+
+.navbar-brand {
+  font-weight: lighter;
+  color: #FFFFFF;
+}
+
+#title {
+  display: flex;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+.show_icon {
+  margin: 30px;
+}
+
+a {
+  color: #40514e;
+  &:hover {
+    text-decoration: none;
+    color: #1A1423;
+  }
+}
+
+#container {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+.btn-light {
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+#restaurants {
+  font-size: 17px;
+}
+
+.link {
+      margin-top: 28px;
+}
